@@ -1,51 +1,54 @@
-# 🚀 The Next-Gen Package Registry
+# 🌹 RoseScript Package Registry (Official Hub)
 
-Welcome to the official home of our programming language's ecosystem! This is the beating heart of our community — a centralized hub for **open-source, secure, and production-ready libraries**.
+Welcome to the official central repository and package registry for the **RoseScript** ecosystem! This is an open-source, ultra-fast, and secure hub designed for sharing declarative UI components, system libraries, and hardware-accelerated graphics modules.
 
-We believe in the power of Open Source, which is why every single library is **manually verified** by our moderation team 🛡️. No malware, no hidden vulnerabilities — just clean, fast, and reliable code for your projects!
+Every package published here becomes instantly available to the global community for installation via the `bud` package manager.
 
 ---
 
-## 🏗️ Repository Architecture (Package Structure)
+## 🛡️ Supply Chain Security Core (How it Works)
 
-To maintain perfect order and ensure the package manager runs like clockwork, all libraries are categorized and must follow a strict structural template.
+We do not believe in blind trust. To protect end-users from malicious injections, credential stealers, and destructive code, every single package passes through a **three-tier security pipeline** before going live:
 
-### Directory Structure:
-```text
-📂 packages/
- ┣ 📂 core/                # Official core and standard libraries
- ┣ 📂 net/                 # Networking, APIs, and web frameworks
- ┣ 📂 utils/               # Utility functions, string handling, dates, etc.
- ┗ 📂 UI/                  # Interface elements and graphics packages
-```
+┌────────────────────────────────────────────────────────────────────────┐
+│  📥 1. ISOLATED SANDBOX INGESTION                                      │
+├────────────────────────────────────────────────────────────────────────┤
+│  🔍 2. STATIC VULNERABILITY ANALYZER (BYTECODE SCANNING)               │
+│     • Instant blocking of unauthorized hooks like `std::process`       │
+│     • Strict prevention of arbitrary filesystem mutations (`rm -rf`)  │
+├────────────────────────────────────────────────────────────────────────┤
+│  🔏 3. CRYPTOGRAPHIC SIGNING & AUDITING (SHA-256)                      │
+│     • Generation of a unique cryptographic tamper-proof fingerprint    │
+│     • Hardened protection against "Man-in-the-Middle" (MitM) attacks   │
+└────────────────────────────────────────────────────────────────────────┘
 
+---
+
+## 📜 Unified Licensing Policy: Pure MIT Mandate!
+
+To completely eliminate legal friction, copyright trolling, and enterprise adoption barriers, the RoseScript Registry enforces a strict ecosystem rule:
+
+> ⚖️ **Absolutely all packages hosted, distributed, and shared through this registry are automatically published under the terms of the MIT License.**
+
+### What this means for Developers and Authors:
+- **Total Commercial Freedom:** You can freely download any component and use it in open-source projects, enterprise applications, closed-source proprietary software, and fast-growing startups without legal overhead.
+- **Zero Liability:** The MIT License waives any liability for package maintainers — code is provided "AS IS", completely shielding open-source contributors from legal vulnerabilities.
+- **Automated License Injection:** Even if an author forgets to bundle a license file, the `bud` package manager will automatically generate and inject the official MIT license text into the project's local sandbox cache during download.
+
+---
+
+## 🏗️ Repository Architecture (Recommended Package Layout)
+
+To keep the `bud` package manager running like clockwork, the registry is structured into 4 main categories. Adhering to this layout ensures seamless dependency compilation:
+
+Используйте код с осторожностью.📂 packages/┣ 📂 core/         # System extensions, standard math algorithms, core traits┣ 📂 net/          # Network controllers, secure API clients, database hooks┣ 📂 utils/        # String utilities, structural handling, date-time parsing┗ 📂 UI/           # Graphical components, layout engines, interactive panels
 ### Anatomy of a Perfect Package:
-Each library must reside in its own folder under the appropriate category and include the following files:
-```text
-📂 packages/utils/my-awesome-lib/
- ┣ 📄 package.json          # Manifest: package name, version, author, and dependencies
- ┣ 📄 README.md             # Clear description: what it does and how to use it
- ┣ 📄 LICENSE               # Code license (e.g., MIT)
- ┗ 📂 src/                  # Source code of the library
-```
-
+Each library must reside in its designated category directory and contain the following clean structure:
+📂 packages/UI/my-awesome-button/┣ 📄 package.json  # Manifest: metadata and hooks┣ 📄 README.md     # Documentation and guides┗ 📂 src/┗ 📄 lib.rose   # Root source entry point
 ---
 
-## 📜 Developer Code of Conduct (Our Rules)
+## ⚡ Developer Code of Conduct & Ecosystem Stability
 
-We grant you complete creative freedom, but we also protect the stability of thousands of developers who will rely on your code. By publishing a package here, you agree to the ecosystem guidelines:
+Contributors agree to permanent version preservation, a 2-year deprecation lifecycle for inactive modules, and emergency moderation protocols for critical security exploits.
 
-* **🌟 Permanent Contribution:** Once uploaded, the library remains yours, but **deleting it from the registry is strictly prohibited**. Why? We safeguard dependencies. Your code might become the foundation of someone else's major software, and it must never abruptly disappear.
-* **⏳ 2-Year Lifecycle:** Technology moves fast. If a library stays **without updates for 2 years**, it will automatically be marked as **Deprecated**. It can still be used, but developers will see a warning that the code might need a new maintainer.
-* **🔧 Emergency Moderation:** If a library is broken, corrupted, or contains major security flaws, and the author fails to fix it, the moderators reserve the right to **remove it** to keep the user base safe.
-
----
-
-## ⚡ How to Publish Your Masterpiece
-
-1. **Fork** this repository.
-2. Create your feature branch: `git checkout -b feature/add-my-library`.
-3. Add your package folder following the [Repository Architecture](#️-repository-architecture-package-structure).
-4. Open a **Pull Request** and submit it for manual review.
-
-> 💡 *Build, share, and change the world with your code. Welcome to the family!*
+🚀 *Build stunning interfaces, leverage secure open-source code, and reshape the
