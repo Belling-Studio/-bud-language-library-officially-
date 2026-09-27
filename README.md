@@ -51,4 +51,4 @@ Each library must reside in its designated category directory and contain the fo
 
 Contributors agree to permanent version preservation, a 2-year deprecation lifecycle for inactive modules, and emergency moderation protocols for critical security exploits.
 
-🚀 *Build stunning interfaces, leverage secure open-source code, and reshape the
+🚀 *Build stunning interfaces, leverage secure open-source code, and reshape the*
